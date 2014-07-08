@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F72BAFA196B992700528735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F72BAF9196B992700528735 /* Foundation.framework */; };
+		2F72BAFC196B992700528735 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F72BAFB196B992700528735 /* CoreGraphics.framework */; };
+		2F72BAFE196B992700528735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F72BAFD196B992700528735 /* UIKit.framework */; };
+		2F72BB04196B992700528735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F72BB02196B992700528735 /* InfoPlist.strings */; };
+		2F72BB06196B992700528735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F72BB05196B992700528735 /* main.m */; };
+		2F72BB0A196B992700528735 /* LSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F72BB09196B992700528735 /* LSAppDelegate.m */; };
+		2F72BB0C196B992700528735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F72BB0B196B992700528735 /* Images.xcassets */; };
+		2F72BB13196B992700528735 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F72BB12196B992700528735 /* XCTest.framework */; };
+		2F72BB14196B992700528735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F72BAF9196B992700528735 /* Foundation.framework */; };
+		2F72BB15196B992700528735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F72BAFD196B992700528735 /* UIKit.framework */; };
+		2F72BB1D196B992700528735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F72BB1B196B992700528735 /* InfoPlist.strings */; };
+		2F72BB1F196B992700528735 /* LSPopSelectorLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F72BB1E196B992700528735 /* LSPopSelectorLibTests.m */; };
+		2F72BB2A196B995100528735 /* LSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F72BB29196B995100528735 /* LSMainViewController.m */; };
+		2F72BB2D196B9A7E00528735 /* LSPopSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F72BB2C196B9A7E00528735 /* LSPopSelector.m */; };
+		2F72BB30196B9DDB00528735 /* LSPSSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F72BB2F196B9DDB00528735 /* LSPSSelectController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F72BB16196B992700528735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F72BAEE196B992600528735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F72BAF5196B992700528735;
+			remoteInfo = LSPopSelectorLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F72BAF6196B992700528735 /* LSPopSelectorLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSPopSelectorLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F72BAF9196B992700528735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F72BAFB196B992700528735 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F72BAFD196B992700528735 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F72BB01196B992700528735 /* LSPopSelectorLib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LSPopSelectorLib-Info.plist"; sourceTree = "<group>"; };
+		2F72BB03196B992700528735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F72BB05196B992700528735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F72BB07196B992700528735 /* LSPopSelectorLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSPopSelectorLib-Prefix.pch"; sourceTree = "<group>"; };
+		2F72BB08196B992700528735 /* LSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAppDelegate.h; sourceTree = "<group>"; };
+		2F72BB09196B992700528735 /* LSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAppDelegate.m; sourceTree = "<group>"; };
+		2F72BB0B196B992700528735 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F72BB11196B992700528735 /* LSPopSelectorLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSPopSelectorLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F72BB12196B992700528735 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2F72BB1A196B992700528735 /* LSPopSelectorLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LSPopSelectorLibTests-Info.plist"; sourceTree = "<group>"; };
+		2F72BB1C196B992700528735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F72BB1E196B992700528735 /* LSPopSelectorLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPopSelectorLibTests.m; sourceTree = "<group>"; };
+		2F72BB28196B995100528735 /* LSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMainViewController.h; sourceTree = "<group>"; };
+		2F72BB29196B995100528735 /* LSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMainViewController.m; sourceTree = "<group>"; };
+		2F72BB2B196B9A7E00528735 /* LSPopSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPopSelector.h; sourceTree = "<group>"; };
+		2F72BB2C196B9A7E00528735 /* LSPopSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPopSelector.m; sourceTree = "<group>"; };
+		2F72BB2E196B9DDB00528735 /* LSPSSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPSSelectController.h; sourceTree = "<group>"; };
+		2F72BB2F196B9DDB00528735 /* LSPSSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPSSelectController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F72BAF3196B992700528735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F72BAFC196B992700528735 /* CoreGraphics.framework in Frameworks */,
+				2F72BAFE196B992700528735 /* UIKit.framework in Frameworks */,
+				2F72BAFA196B992700528735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F72BB0E196B992700528735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F72BB13196B992700528735 /* XCTest.framework in Frameworks */,
+				2F72BB15196B992700528735 /* UIKit.framework in Frameworks */,
+				2F72BB14196B992700528735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F72BAED196B992600528735 = {
+			isa = PBXGroup;
+			children = (
+				2F72BAFF196B992700528735 /* LSPopSelectorLib */,
+				2F72BB18196B992700528735 /* LSPopSelectorLibTests */,
+				2F72BAF8196B992700528735 /* Frameworks */,
+				2F72BAF7196B992700528735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F72BAF7196B992700528735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F72BAF6196B992700528735 /* LSPopSelectorLib.app */,
+				2F72BB11196B992700528735 /* LSPopSelectorLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F72BAF8196B992700528735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F72BAF9196B992700528735 /* Foundation.framework */,
+				2F72BAFB196B992700528735 /* CoreGraphics.framework */,
+				2F72BAFD196B992700528735 /* UIKit.framework */,
+				2F72BB12196B992700528735 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F72BAFF196B992700528735 /* LSPopSelectorLib */ = {
+			isa = PBXGroup;
+			children = (
+				2F72BB08196B992700528735 /* LSAppDelegate.h */,
+				2F72BB09196B992700528735 /* LSAppDelegate.m */,
+				2F72BB0B196B992700528735 /* Images.xcassets */,
+				2F72BB00196B992700528735 /* Supporting Files */,
+				2F72BB28196B995100528735 /* LSMainViewController.h */,
+				2F72BB29196B995100528735 /* LSMainViewController.m */,
+				2F72BB2B196B9A7E00528735 /* LSPopSelector.h */,
+				2F72BB2C196B9A7E00528735 /* LSPopSelector.m */,
+				2F72BB2E196B9DDB00528735 /* LSPSSelectController.h */,
+				2F72BB2F196B9DDB00528735 /* LSPSSelectController.m */,
+			);
+			path = LSPopSelectorLib;
+			sourceTree = "<group>";
+		};
+		2F72BB00196B992700528735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F72BB01196B992700528735 /* LSPopSelectorLib-Info.plist */,
+				2F72BB02196B992700528735 /* InfoPlist.strings */,
+				2F72BB05196B992700528735 /* main.m */,
+				2F72BB07196B992700528735 /* LSPopSelectorLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F72BB18196B992700528735 /* LSPopSelectorLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F72BB1E196B992700528735 /* LSPopSelectorLibTests.m */,
+				2F72BB19196B992700528735 /* Supporting Files */,
+			);
+			path = LSPopSelectorLibTests;
+			sourceTree = "<group>";
+		};
+		2F72BB19196B992700528735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F72BB1A196B992700528735 /* LSPopSelectorLibTests-Info.plist */,
+				2F72BB1B196B992700528735 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F72BAF5196B992700528735 /* LSPopSelectorLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F72BB22196B992700528735 /* Build configuration list for PBXNativeTarget "LSPopSelectorLib" */;
+			buildPhases = (
+				2F72BAF2196B992700528735 /* Sources */,
+				2F72BAF3196B992700528735 /* Frameworks */,
+				2F72BAF4196B992700528735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSPopSelectorLib;
+			productName = LSPopSelectorLib;
+			productReference = 2F72BAF6196B992700528735 /* LSPopSelectorLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F72BB10196B992700528735 /* LSPopSelectorLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F72BB25196B992700528735 /* Build configuration list for PBXNativeTarget "LSPopSelectorLibTests" */;
+			buildPhases = (
+				2F72BB0D196B992700528735 /* Sources */,
+				2F72BB0E196B992700528735 /* Frameworks */,
+				2F72BB0F196B992700528735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F72BB17196B992700528735 /* PBXTargetDependency */,
+			);
+			name = LSPopSelectorLibTests;
+			productName = LSPopSelectorLibTests;
+			productReference = 2F72BB11196B992700528735 /* LSPopSelectorLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F72BAEE196B992600528735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sinri;
+				TargetAttributes = {
+					2F72BB10196B992700528735 = {
+						TestTargetID = 2F72BAF5196B992700528735;
+					};
+				};
+			};
+			buildConfigurationList = 2F72BAF1196B992600528735 /* Build configuration list for PBXProject "LSPopSelectorLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F72BAED196B992600528735;
+			productRefGroup = 2F72BAF7196B992700528735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F72BAF5196B992700528735 /* LSPopSelectorLib */,
+				2F72BB10196B992700528735 /* LSPopSelectorLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F72BAF4196B992700528735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F72BB04196B992700528735 /* InfoPlist.strings in Resources */,
+				2F72BB0C196B992700528735 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F72BB0F196B992700528735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F72BB1D196B992700528735 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F72BAF2196B992700528735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F72BB30196B9DDB00528735 /* LSPSSelectController.m in Sources */,
+				2F72BB2A196B995100528735 /* LSMainViewController.m in Sources */,
+				2F72BB2D196B9A7E00528735 /* LSPopSelector.m in Sources */,
+				2F72BB06196B992700528735 /* main.m in Sources */,
+				2F72BB0A196B992700528735 /* LSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F72BB0D196B992700528735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F72BB1F196B992700528735 /* LSPopSelectorLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F72BB17196B992700528735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F72BAF5196B992700528735 /* LSPopSelectorLib */;
+			targetProxy = 2F72BB16196B992700528735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F72BB02196B992700528735 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F72BB03196B992700528735 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F72BB1B196B992700528735 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F72BB1C196B992700528735 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F72BB20196B992700528735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F72BB21196B992700528735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F72BB23196B992700528735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSPopSelectorLib/LSPopSelectorLib-Prefix.pch";
+				INFOPLIST_FILE = "LSPopSelectorLib/LSPopSelectorLib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F72BB24196B992700528735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSPopSelectorLib/LSPopSelectorLib-Prefix.pch";
+				INFOPLIST_FILE = "LSPopSelectorLib/LSPopSelectorLib-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2F72BB26196B992700528735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LSPopSelectorLib.app/LSPopSelectorLib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSPopSelectorLib/LSPopSelectorLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LSPopSelectorLibTests/LSPopSelectorLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2F72BB27196B992700528735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LSPopSelectorLib.app/LSPopSelectorLib";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSPopSelectorLib/LSPopSelectorLib-Prefix.pch";
+				INFOPLIST_FILE = "LSPopSelectorLibTests/LSPopSelectorLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F72BAF1196B992600528735 /* Build configuration list for PBXProject "LSPopSelectorLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F72BB20196B992700528735 /* Debug */,
+				2F72BB21196B992700528735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F72BB22196B992700528735 /* Build configuration list for PBXNativeTarget "LSPopSelectorLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F72BB23196B992700528735 /* Debug */,
+				2F72BB24196B992700528735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F72BB25196B992700528735 /* Build configuration list for PBXNativeTarget "LSPopSelectorLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F72BB26196B992700528735 /* Debug */,
+				2F72BB27196B992700528735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F72BAEE196B992600528735 /* Project object */;
+}
